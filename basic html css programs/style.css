@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: aquamarine;
+    padding: 10px 40px;
+    color:black;
+    
+}
+.logo{
+    font-size: 10px;
+    font-weight: bold; 
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+}
+.nav a:hover{
+    color:black;
+}
+.hero{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.left img{
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.right h1{
+    font-size: 30px;
+    color:black;
+    margin-bottom: 15px;
+}
+.right p{
+    font-size: 20px;
+    color:rgb(67, 123, 172);
+    margin-bottom: 20px;
+}
+.right button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: aquamarine;
+    color:black;
+    font-size:10px;
+    border-radius: 10px;
+
+}
+.right button:hover{
+    background-color: white;
+    transform: scale(1.05);
+}
